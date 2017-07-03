@@ -1,0 +1,40 @@
+@import "../color-variables";
+
+.file {
+  min-width: 250px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+}
+
+.file-logo {
+  height: 20px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.file-name {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-delete {
+  height: 15px;
+  min-width: 15px;
+  padding: 0;
+  background: url("assets/delete.png");
+  background-size: cover;
+  cursor: pointer;
+  &:hover {
+    height: 20px;
+    min-width: 20px;
+  }
+}

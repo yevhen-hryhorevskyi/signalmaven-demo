@@ -1,0 +1,30 @@
+@import "../color-variables";
+
+.sample-questions {
+  min-height: 300px;
+  min-width: 200px;
+  padding: 12px 8px;
+  background: $medium-grey;
+}
+
+.sample-questions__header {
+  margin: 0 0 15px;
+  font-size: 18px;
+  text-align: center;
+  color: $orange;
+}
+
+.sample-questions__questions-list {
+  margin: 0;
+  padding-left: 25px;
+  list-style: decimal;
+  font-size: 12px;
+  color: $dark-grey;
+}
+
+.sample-questions__question {
+  cursor: pointer;
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}

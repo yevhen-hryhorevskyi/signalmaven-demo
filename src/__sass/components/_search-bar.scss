@@ -1,0 +1,23 @@
+@import "../color-variables";
+
+.search-bar {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar__input {
+  height: 30px;
+  width: 100%;
+  min-width: 200px;
+  max-width: 400px;
+  padding-left: 29px;
+  border: 2px solid $dark-grey;
+  border-radius: 10px;
+  position: relative;
+  outline: none;
+  background: url("assets/search.svg") no-repeat center left;
+  background-size: 24px;
+}

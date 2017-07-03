@@ -1,0 +1,21 @@
+@import "../color-variables";
+
+.search-result-list {
+  color: $dark-grey;
+  &.no-data {
+    text-align: center;
+  }
+}
+
+.search-result-list__help {
+  margin-top: 10px;
+  text-align: center;
+  color: $orange;
+}
+
+.search-result-list__item {
+  cursor: pointer;
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}

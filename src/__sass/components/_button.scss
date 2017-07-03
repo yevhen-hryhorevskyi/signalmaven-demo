@@ -1,0 +1,25 @@
+@import "../color-variables";
+
+.button {
+  height: 45px;
+  width: 110px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  color: $light-grey;
+  text-transform: capitalize;
+}
+
+.button_primary {
+  background: $medium-blue;
+  &:hover {
+    background: darken($medium-blue, 15%);
+  }
+}
+
+.button_secondary {
+  background: $darker-grey;
+  &:hover {
+    background: darken($darker-grey, 15%);
+  }
+}

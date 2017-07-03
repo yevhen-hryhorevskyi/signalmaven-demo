@@ -1,0 +1,17 @@
+@import "../color-variables";
+
+.question-info-section {
+  max-width: 400px;
+  margin: 0 auto;
+  color: $dark-grey;
+}
+
+.question-info-section__question {
+  text-align: justify;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.question-info-section__answer {
+  text-align: justify;
+}

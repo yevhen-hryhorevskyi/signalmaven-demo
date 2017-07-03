@@ -1,0 +1,25 @@
+.questions-tab {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 70px 25px 0;
+  align-items: flex-start;
+}
+
+.questions-tab__search {
+  flex: 3;
+  margin-right: 25px;
+}
+
+.questions-tab__pictures {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.questions-tab__robotic-arm {
+  height: 80px;
+}
+
+.questions-tab__sample-questions {
+  flex: 2;
+}
