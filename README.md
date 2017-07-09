@@ -6,6 +6,8 @@ This project is a single page app with 2 stub tabs that allow
 to select (or search) one of the 5 hard-coded questions as well
 as select multiple files for uploading.
 
+[Live Demo](https://yevhen-hryhorevskyi.github.io/signalmaven-demo/) 
+
 ### Set up environment
 1. Install Node.js  
 2. Install Ruby 2.3.x (Windows - http://rubyinstaller.org/downloads/)
